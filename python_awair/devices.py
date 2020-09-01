@@ -421,10 +421,6 @@ class AwairBaseDevice(ABC):
 class AwairDevice(AwairBaseDevice):
     """A cloud-based Awair device."""
 
-    def __init__(self, client: AwairClient, attributes: Dict[str, Any]):
-        """Initialize an awair device from API attributes."""
-        super().__init__(client, attributes)
-
     def _get_airdata_base_url(self) -> str:
         """Get the base URL to use for airdata."""
         return "/".join([const.DEVICE_URL, self.device_type, str(self.device_id)])
