@@ -11,14 +11,14 @@ to the "user" portions of the API.
 """
 
 from asyncio import gather
-from typing import Optional, List
+from typing import List, Optional
 
 from aiohttp import ClientSession
 
 from python_awair import const
-from python_awair.devices import AwairLocalDevice
 from python_awair.auth import AccessTokenAuth, AwairAuth
 from python_awair.client import AwairClient
+from python_awair.devices import AwairLocalDevice
 from python_awair.exceptions import AwairError
 from python_awair.user import AwairUser
 

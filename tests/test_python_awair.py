@@ -14,12 +14,12 @@ from python_awair.exceptions import AuthError, AwairError, NotFoundError, QueryE
 from tests.const import (
     ACCESS_TOKEN,
     AWAIR_GEN1_ID,
+    MOCK_ELEMENT_DEVICE_A_ATTRS,
+    MOCK_ELEMENT_DEVICE_B_ATTRS,
     MOCK_GEN2_DEVICE_ATTRS,
     MOCK_GLOW_DEVICE_ATTRS,
     MOCK_MINT_DEVICE_ATTRS,
     MOCK_OMNI_DEVICE_ATTRS,
-    MOCK_ELEMENT_DEVICE_A_ATTRS,
-    MOCK_ELEMENT_DEVICE_B_ATTRS,
 )
 from tests.utils import VCR, SillyAuth, mock_awair_device, mock_awair_user, time_travel
 
