@@ -1,12 +1,12 @@
 [tool.poetry]
-name = "python-awair"
+name = "python-awair-local-sensors"
 version = "0.2.0"
 description = "asyncio client for the Awair GraphQL API"
-authors = ["Andrew Hayworth <ahayworth@gmail.com>"]
+authors = ["Andrew Hayworth <ahayworth@gmail.com>", "Bobby Powers <bobbypowers@gmail.com"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/ahayworth/python_awair"
-repository = "https://github.com/ahayworth/python_awair"
+homepage = "https://github.com/bpowers/python_awair"
+repository = "https://github.com/bpowers/python_awair"
 keywords = ["awair", "getawair", "api", "async", "asyncio"]
 classifiers = [
     "Development Status :: 4 - Beta",
